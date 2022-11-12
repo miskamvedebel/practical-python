@@ -13,4 +13,4 @@ for i in range(1, number_of_bounces + 1):
          h = INIT_HEIGHT
     
      h *= FADING
-     print(i, h)
+     print(i, round(h, 4))
