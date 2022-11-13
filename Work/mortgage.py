@@ -25,7 +25,7 @@ while principal > 0:
         total_paid += extra_payment
     month += 1
 
-    print(month, total_paid, principal)
+    print(f'month: {str(month): >5s}, total paid: {str(round(total_paid, 2)): >5s}, total debt left: {str(round(principal, 2)): >5s}')
 
 print('Total paid', total_paid)
 print('Total months', month)
